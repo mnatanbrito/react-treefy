@@ -2,7 +2,9 @@
   "name": "@mnatanbrito/react-treefy",
   "version": "1.0.0",
   "description": "Generates user-friendly component dependency trees for ReactJS.",
-  "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "react-treefy": "dist/index.js"
   },
@@ -17,10 +19,10 @@
     "url": "git+https://github.com/mnatanbrito/react-treefy.git"
   },
   "keywords": [
-    "ReactJS",
-    "Dependency-Tree"
+    "reactjs",
+    "dependency-tree"
   ],
-  "author": "Marcos Pacheco",
+  "author": "Marcos Natan <mnatan.brito@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mnatanbrito/react-treefy/issues"
