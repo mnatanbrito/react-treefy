@@ -1,0 +1,42 @@
+{
+  "name": "@mnatanbrito/react-treefy",
+  "version": "1.0.0",
+  "description": "Generates user-friendly component dependency trees for ReactJS.",
+  "main": "dist/index.js",
+  "bin": {
+    "react-treefy": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnatanbrito/react-treefy.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "Dependency-Tree"
+  ],
+  "author": "Marcos Pacheco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnatanbrito/react-treefy/issues"
+  },
+  "homepage": "https://github.com/mnatanbrito/react-treefy#readme",
+  "dependencies": {
+    "@babel/parser": "^7.4.5",
+    "@babel/traverse": "^7.4.5",
+    "chalk": "^2.4.2",
+    "pretty-tree": "^1.0.0",
+    "yargs": "^13.2.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-preset-minify": "^0.5.0"
+  }
+}

@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+'use strict';// code organization patterns inspired on https://github.com/avajs/ava/blob/master/cli.js
+var _yargs=require("yargs"),_reactTreefy=require("./reactTreefy"),args=(0,_yargs.scriptName)("react-treefy").usage("$0 <rootComponentPath>","Generates user-friendly component dependency trees for ReactJS.",function(a){a.positional("rootComponentPath",{alias:"path",describe:"Specify the path to the root component of the hierarchy. E.g.: App.js",type:"string"})}).version("1.0.0").help().argv;new _reactTreefy.ReactTreefy(args).run();

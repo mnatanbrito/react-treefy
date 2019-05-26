@@ -1,0 +1,16 @@
+export const IMPORT_DECLARATION = 'ImportDeclaration';
+export const IMPORT_DEFAULT_SPECIFIER = 'ImportDefaultSpecifier';
+export const IMPORT_SPECIFIER = 'ImportSpecifier';
+export const VARIABLE_DECLARATION = 'VariableDeclaration';
+export const CLASS_DECLARATION = 'ClassDeclaration';
+export const EXPORT_DEFAULT_DECLARATION = 'ExportDefaultDeclaration';
+export const EXPORT_NAMED_DECLARATION = 'ExportNamedDeclaration';
+export const EXPORT_SPECIFIER = 'ExportSpecifier';
+export const MEMBER_EXPRESSION = 'MemberExpression';
+export const EXPRESSION_STATEMENT = 'ExpressionStatement';
+export const CALL_EXPRESSION = 'CallExpression';
+export const ARROW_FUNCTION_EXPRESSION = 'ArrowFunctionExpression';
+export const IDENTIFIER = 'Identifier';
+export const JSX_ELEMENT = 'JSXElement';
+export const JSX_EXPRESSION_CONTAINER = 'JSXExpressionContainer';
+export const FUNCTION_DECLARATION = 'FunctionDeclaration';
