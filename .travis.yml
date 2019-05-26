@@ -1,0 +1,14 @@
+language: node_js
+
+node_js:
+  - '10'
+  - '8'
+
+script:
+  - npm run build
+
+deploy:
+  provider: npm
+  email: 'mnatan.brito@gmail.com'
+  api_key: $NPM_API_KEY
+  tag: latest
